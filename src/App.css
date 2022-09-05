@@ -8,7 +8,8 @@
   font-family: sans-serif;
   text-align: center;
   color: #fff;
-  background-color: #406;
-  height: 100%;
-  padding: 20px;
+  /* background-color: #406; */
+  background-image: url("./background.gif");
+  height: 100vh;
+  padding: 10px;
 }
