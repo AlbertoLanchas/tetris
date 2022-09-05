@@ -59,9 +59,11 @@ const GameController = ({
     <input
       className="GameController"
       type="text"
+      placeholder="ON"
       onKeyDown={onKeyDown}
       onKeyUp={onKeyUp}
       autoFocus
+      readOnly
     />
   );
 };

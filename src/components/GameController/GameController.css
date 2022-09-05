@@ -1,4 +1,24 @@
 .GameController {
   position: absolute;
-  top: -100em;
+  /* top: -100em; */
+  left: 2em;
+  top: 20em;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  border: 0px;
+  background-color: red;
+  text-align: center;
+}
+
+.GameController:focus {
+  background-color: greenyellow;
+  outline: none;
+}
+
+.GameController::placeholder {
+  color: black;
+  font-size: large;
+  text-align: center;
+  font-weight: bold;
 }

@@ -1,6 +1,6 @@
 .GameStats {
   position: absolute;
-  width: 22vw;
+  width: 35vw;
   list-style-type: none;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -13,7 +13,7 @@
 
 .GameStats__right {
   right: 0;
-  bottom: 0;
+  bottom: 33vh;
   text-align: left;
 }
 

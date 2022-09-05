@@ -28,16 +28,19 @@ export const TETROMINOES = {
   },
   O: {
     shape: [
-      [1, 1],
-      [1, 1],
+      [0, 1, 1, 0],
+      [0, 1, 1, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
     ],
     className: `${className} ${className}__o`,
   },
   S: {
     shape: [
-      [0, 1, 1],
-      [1, 1, 0],
-      [0, 0, 0],
+      [0, 1, 1, 0],
+      [1, 1, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
     ],
     className: `${className} ${className}__s`,
   },
@@ -51,9 +54,10 @@ export const TETROMINOES = {
   },
   Z: {
     shape: [
-      [1, 1, 0],
-      [0, 1, 1],
-      [0, 0, 0],
+      [0, 1, 1, 0],
+      [0, 0, 1, 1],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
     ],
     className: `${className} ${className}__z`,
   },
