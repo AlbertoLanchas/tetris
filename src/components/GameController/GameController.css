@@ -9,6 +9,7 @@
   border: 2px solid rgb(161, 11, 11);
   background-color: rgb(211, 55, 55);
   text-align: center;
+  cursor: pointer;
 }
 
 .GameController:focus {
