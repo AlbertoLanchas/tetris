@@ -59,9 +59,10 @@ const GameController = ({
     <input
       className="GameController"
       type="text"
-      placeholder="ON"
       onKeyDown={onKeyDown}
       onKeyUp={onKeyUp}
+      onFocus={(e) => (e.target.placeholder = "ON")}
+      onBlur={(e) => (e.target.placeholder = "OFF")}
       autoFocus
       readOnly
     />

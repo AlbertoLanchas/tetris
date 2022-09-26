@@ -1,0 +1,73 @@
+/* ----------------- COIN PAGE ------------------------------------*/
+
+/* .marketData {
+  align-self: flex-start;
+  padding: 25px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  border-right: 2px solid grey;
+  padding: 30px;
+} */
+
+/* @media screen and (max-width: 900px) {
+  .marketData {
+    display: flex;
+    justify-content: space-around;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  * {
+    background-color: red;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .marketData {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 0px) {
+  .marketData {
+    align-items: flex-start;
+  }
+} */
+
+/* ----------------- COIN INFO ------------------------------------*/
+/* .container {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  padding: 40px;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 100%;
+    margin-top: 0;
+    padding: 20px;
+    padding-top: 0;
+  }
+} */
